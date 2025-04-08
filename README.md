@@ -54,4 +54,4 @@ The in-memory reviews array in the app is located in controllers/reviews.js. All
 ## Links
 
 - **GitHub Repository**: https://github.com/00018400/Book-Review-App
-- **Deployed Application**: https://book-review-app-0018400-68dt.onrender.com/
+- **Deployed Application**: https://book-review-app-00018400.onrender.com/
