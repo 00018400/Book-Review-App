@@ -11,33 +11,31 @@ This is a simple web application for managing book reviews, developed as part of
 - Minimalistic design with a monochromatic color scheme and a single accent color (soft blue).
 
 ## Structure of the Project
+
 /book-review-app
-├── app.js              # Main application file
-├── package.json        # Project configuration file
-├── package-lock.json   # Lock file for dependencies
-├── .gitignore          # File to exclude node_modules from Git
-├── README.md           # Project documentation
-├── public/             # Folder for static files
-│   ├── images/         # Folder for images (contains placeholder)
-│   │   └── placeholder.txt
-│   ├── javascripts/    # Folder for client-side scripts
-│   │   ├── index.js    # JavaScript for the main page
-│   │   ├── create.js   # JavaScript for the create page
-│   │   ├── edit.js     # JavaScript for the edit page
-│   │   └── view.js     # JavaScript for the view page
-│   ├── styles/         # Folder for styles
-│   │   └── style.css   # Main stylesheet
-│   └── views/          # Folder for HTML pages
-│       ├── index.html  # Main page with list of reviews
-│       ├── create.html # Page for creating a new review
-│       ├── edit.html   # Page for editing a review
-│       └── view.html   # Page for viewing a review
-├── routes/             # Folder for routes
-│   ├── index.js        # Placeholder for routes (not used)
-│   └── reviews.js      # Routes for handling reviews
-├── controllers/        # Folder for controllers
-│   └── reviews.js      # Controller for handling review logic
-└── services/           # Folder for service layer logic (not used)
+├── app.js              
+├── package.json        
+├── package-lock.json   
+├── .gitignore          
+├── README.md           
+├── public/             
+│   ├── javascripts/    
+│   │   ├── index.js    
+│   │   ├── create.js  
+│   │   ├── edit.js     
+│   │   └── view.js    
+│   ├── styles/         
+│   │   └── style.css   
+│   └── views/          
+│       ├── index.html  
+│       ├── create.html 
+│       ├── edit.html   
+│       └── view.html   
+├── routes/             
+│   └── reviews.js      
+├── controllers/        
+    └── reviews.js      
+         
 
 ## Notes
 The in-memory reviews array in the app is located in controllers/reviews.js. All data will be lost when the server restarts because it is not persistent.
@@ -56,4 +54,4 @@ The in-memory reviews array in the app is located in controllers/reviews.js. All
 ## Links
 
 - **GitHub Repository**: https://github.com/00018400/Book-Review-App
-- **Deployed Application**: (Add the link after deploying to Render, e.g., `https://book-review-app.onrender.com`)
+- **Deployed Application**: https://book-review-app-0018400-68dt.onrender.com/
